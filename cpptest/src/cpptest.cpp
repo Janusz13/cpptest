@@ -6,8 +6,9 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include <iostream>
+#include "std_lib_facilities.h"
 #include <complex>
+#include "operators.h"
 
 using namespace std;
 
@@ -27,5 +28,6 @@ int main() {
 		if (type != 'y') break;
 	}
 
+	operators();
 	return 0;
 }
