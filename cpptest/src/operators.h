@@ -9,6 +9,7 @@
 #define SRC_OPERATORS_H_
 
 int operators();
+int testvector();
 
 
 

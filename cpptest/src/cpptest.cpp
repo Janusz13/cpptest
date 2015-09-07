@@ -8,14 +8,16 @@
 
 #include "std_lib_facilities.h"
 #include <complex>
-#include "operators.h"
+#include "calculator.h"
 
 using namespace std;
 
 int main() {
+	/*
 	cout << "!!!Hello Brave World!!!" << endl; // prints !!!Hello World!!!
 	double a,b;
 	char type;
+
 	while (cin) {
 
 		cout << "a: ";
@@ -29,5 +31,7 @@ int main() {
 	}
 
 	operators();
+	*/
+	calculate();
 	return 0;
 }

@@ -19,3 +19,24 @@ int operators () {
 
 	return 0;
 }
+
+int testvector() {
+	vector<int> v;
+	int i = 0;
+
+	v.push_back(4);
+	v.push_back(2);
+	v.push_back(6);
+	v.push_back(1);
+
+	cout << "Vector size: " << v.size() << endl;
+	cout << "Not sorted" << endl;
+	for (i=0; i < v.size(); i++)
+		cout << "row " << i << ": " << v[i] << endl;
+
+	sort(v.begin(), v.end());
+	cout << "Sorted" << endl;
+	for (i=0; i < v.size(); i++)
+		cout << "row " << i << ": " << v[i] << endl;
+	return 0;
+}
